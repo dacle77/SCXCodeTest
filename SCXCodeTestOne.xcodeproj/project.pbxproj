@@ -12,6 +12,7 @@
 		2C42DBE51FC49BB800BE6673 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C42DBE31FC49BB800BE6673 /* Main.storyboard */; };
 		2C42DBE71FC49BB800BE6673 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C42DBE61FC49BB800BE6673 /* Assets.xcassets */; };
 		2C42DBEA1FC49BB800BE6673 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C42DBE81FC49BB800BE6673 /* LaunchScreen.storyboard */; };
+		CED61D511FC4CA2A00E2F5CF /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CED61D501FC4CA2A00E2F5CF /* CollectionViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		2C42DBE61FC49BB800BE6673 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2C42DBE91FC49BB800BE6673 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C42DBEB1FC49BB800BE6673 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CED61D501FC4CA2A00E2F5CF /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +40,7 @@
 		2C42DBD31FC49BB800BE6673 = {
 			isa = PBXGroup;
 			children = (
+				CED61D501FC4CA2A00E2F5CF /* CollectionViewController.swift */,
 				2C42DBDE1FC49BB800BE6673 /* SCXCodeTestOne */,
 				2C42DBDD1FC49BB800BE6673 /* Products */,
 			);
@@ -136,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CED61D511FC4CA2A00E2F5CF /* CollectionViewController.swift in Sources */,
 				2C42DBE21FC49BB800BE6673 /* ViewController.swift in Sources */,
 				2C42DBE01FC49BB800BE6673 /* AppDelegate.swift in Sources */,
 			);
